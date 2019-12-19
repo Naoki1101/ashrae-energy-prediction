@@ -1,0 +1,165 @@
+# ===============
+# Data Parameters
+# ===============
+data:
+  features:
+    - building_id_meter2
+    - meter_meter2
+    - timestamp_month_meter2
+    - timestamp_day_meter2
+    - timestamp_weekday_meter2
+    - timestamp_isholiday_meter2
+    - site_id_meter2
+    - primary_use_meter2
+    - square_feet_meter2
+    - year_built_meter2
+    - floor_count_meter2
+    - square_feet_div_floor_count_meter2
+    - square_feet_div_mean_by_site_id_meter2
+    - square_feet_div_mean_by_primary_use_meter2
+    - square_feet_div_mean_by_year_built_meter2
+    - max_air_temperature_meter2
+    - std_air_temperature_meter2
+    - min_air_temperature_meter2
+    - mean_air_temperature_meter2
+    - diff_min_air_temperature_from_pre_1d_meter2
+    - diff_min_air_temperature_from_pre_7d_meter2
+    - diff_max_air_temperature_from_pre_1d_meter2
+    - diff_max_air_temperature_from_pre_7d_meter2
+    - diff_std_air_temperature_from_pre_1d_meter2
+    - diff_std_air_temperature_from_pre_7d_meter2
+    - diff_mean_air_temperature_from_pre_1d_meter2
+    - diff_mean_air_temperature_from_pre_7d_meter2
+    - max_cloud_coverage_meter2
+    - std_cloud_coverage_meter2
+    - min_cloud_coverage_meter2
+    - mean_cloud_coverage_meter2
+    - diff_min_cloud_coverage_from_pre_1d_meter2
+    - diff_min_cloud_coverage_from_pre_7d_meter2
+    - diff_max_cloud_coverage_from_pre_1d_meter2
+    - diff_max_cloud_coverage_from_pre_7d_meter2
+    - diff_std_cloud_coverage_from_pre_1d_meter2
+    - diff_std_cloud_coverage_from_pre_7d_meter2
+    - diff_mean_cloud_coverage_from_pre_1d_meter2
+    - diff_mean_cloud_coverage_from_pre_7d_meter2
+    - max_dew_temperature_meter2
+    - std_dew_temperature_meter2
+    - min_dew_temperature_meter2
+    - mean_dew_temperature_meter2
+    - diff_min_dew_temperature_from_pre_1d_meter2
+    - diff_min_dew_temperature_from_pre_7d_meter2
+    - diff_max_dew_temperature_from_pre_1d_meter2
+    - diff_max_dew_temperature_from_pre_7d_meter2
+    - diff_std_dew_temperature_from_pre_1d_meter2
+    - diff_std_dew_temperature_from_pre_7d_meter2
+    - diff_mean_dew_temperature_from_pre_1d_meter2
+    - diff_mean_dew_temperature_from_pre_7d_meter2
+    - max_precip_depth_1_hr_meter2
+    - std_precip_depth_1_hr_meter2
+    - min_precip_depth_1_hr_meter2
+    - mean_precip_depth_1_hr_meter2
+    - diff_min_precip_depth_1_hr_from_pre_1d_meter2
+    - diff_min_precip_depth_1_hr_from_pre_7d_meter2
+    - diff_max_precip_depth_1_hr_from_pre_1d_meter2
+    - diff_max_precip_depth_1_hr_from_pre_7d_meter2
+    - diff_std_precip_depth_1_hr_from_pre_1d_meter2
+    - diff_std_precip_depth_1_hr_from_pre_7d_meter2
+    - diff_mean_precip_depth_1_hr_from_pre_1d_meter2
+    - diff_mean_precip_depth_1_hr_from_pre_7d_meter2
+    - max_sea_level_pressure_meter2
+    - std_sea_level_pressure_meter2
+    - min_sea_level_pressure_meter2
+    - mean_sea_level_pressure_meter2
+    - diff_min_sea_level_pressure_from_pre_1d_meter2
+    - diff_min_sea_level_pressure_from_pre_7d_meter2
+    - diff_max_sea_level_pressure_from_pre_1d_meter2
+    - diff_max_sea_level_pressure_from_pre_7d_meter2
+    - diff_std_sea_level_pressure_from_pre_1d_meter2
+    - diff_std_sea_level_pressure_from_pre_7d_meter2
+    - diff_mean_sea_level_pressure_from_pre_1d_meter2
+    - diff_mean_sea_level_pressure_from_pre_7d_meter2
+    - max_wind_direction_meter2
+    - std_wind_direction_meter2
+    - min_wind_direction_meter2
+    - mean_wind_direction_meter2
+    - diff_min_wind_direction_from_pre_1d_meter2
+    - diff_min_wind_direction_from_pre_7d_meter2
+    - diff_max_wind_direction_from_pre_1d_meter2
+    - diff_max_wind_direction_from_pre_7d_meter2
+    - diff_std_wind_direction_from_pre_1d_meter2
+    - diff_std_wind_direction_from_pre_7d_meter2
+    - diff_mean_wind_direction_from_pre_1d_meter2
+    - diff_mean_wind_direction_from_pre_7d_meter2
+    - max_wind_speed_meter2
+    - std_wind_speed_meter2
+    - min_wind_speed_meter2
+    - mean_wind_speed_meter2
+    - diff_min_wind_speed_from_pre_1d_meter2
+    - diff_min_wind_speed_from_pre_7d_meter2
+    - diff_max_wind_speed_from_pre_1d_meter2
+    - diff_max_wind_speed_from_pre_7d_meter2
+    - diff_std_wind_speed_from_pre_1d_meter2
+    - diff_std_wind_speed_from_pre_7d_meter2
+    - diff_mean_wind_speed_from_pre_1d_meter2
+    - diff_mean_wind_speed_from_pre_7d_meter2
+    - site_id_primary_use_meter2
+    - target_encoding_by_building_id_folds1_meter2
+    - target_encoding_by_site_id_folds1_meter2
+    - target_encoding_by_primary_use_folds1_meter2
+    - diff_min_air_temperature_from_pre_m1d_meter2
+    - diff_max_air_temperature_from_pre_m1d_meter2
+    - diff_std_air_temperature_from_pre_m1d_meter2
+    - diff_mean_air_temperature_from_pre_m1d_meter2
+    - diff_min_cloud_coverage_from_pre_m1d_meter2
+    - diff_max_cloud_coverage_from_pre_m1d_meter2
+    - diff_std_cloud_coverage_from_pre_m1d_meter2
+    - diff_mean_cloud_coverage_from_pre_m1d_meter2
+    - diff_min_dew_temperature_from_pre_m1d_meter2
+    - diff_max_dew_temperature_from_pre_m1d_meter2
+    - diff_std_dew_temperature_from_pre_m1d_meter2
+    - diff_mean_dew_temperature_from_pre_m1d_meter2
+    - diff_min_precip_depth_1_hr_from_pre_m1d_meter2
+    - diff_max_precip_depth_1_hr_from_pre_m1d_meter2
+    - diff_std_precip_depth_1_hr_from_pre_m1d_meter2
+    - diff_mean_precip_depth_1_hr_from_pre_m1d_meter2
+    - diff_min_sea_level_pressure_from_pre_m1d_meter2
+    - diff_max_sea_level_pressure_from_pre_m1d_meter2
+    - diff_std_sea_level_pressure_from_pre_m1d_meter2
+    - diff_mean_sea_level_pressure_from_pre_m1d_meter2
+    - diff_min_wind_direction_from_pre_m1d_meter2
+    - diff_max_wind_direction_from_pre_m1d_meter2
+    - diff_std_wind_direction_from_pre_m1d_meter2
+    - diff_mean_wind_direction_from_pre_m1d_meter2
+    - diff_min_wind_speed_from_pre_m1d_meter2
+    - diff_max_wind_speed_from_pre_m1d_meter2
+    - diff_std_wind_speed_from_pre_m1d_meter2
+    - diff_mean_wind_speed_from_pre_m1d_meter2
+  categorical_features: 
+    - building_id_meter2
+    - timestamp_weekday_meter2
+    - timestamp_isholiday_meter2
+    - site_id_meter2
+    - primary_use_meter2
+
+  fold_name: 02_gkfold_meter2
+
+  drop_fname: drop_idx_meter2.npy
+  
+  convert_type: log
+
+  oof: 
+    save_oof: True
+    concat_oof: cb_reg_meter2_02_20191217020740_0.902
+
+# ===============
+# Parameters(model)
+# ===============
+model_params:
+  loss_function: RMSE
+  eval_metric: RMSE
+  learning_rate: 0.01
+  iterations: 10000
+  random_seed: &vars 2019
+  od_type: Iter
+  depth: 8
+  early_stopping_rounds: 200

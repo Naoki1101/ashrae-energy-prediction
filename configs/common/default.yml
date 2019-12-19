@@ -1,0 +1,6 @@
+compe:
+  target_name: meter_reading
+  id_name: building_id
+  metrics: rmsle
+  seed: 2019
+  reduce: True

@@ -1,0 +1,130 @@
+# ===============
+# Data Parameters
+# ===============
+data:
+  features:
+    - building_id_meter2_leak
+    - meter_meter2_leak
+    - site_id_meter2_leak
+    - primary_use_meter2_leak
+    - square_feet_meter2_leak
+    - year_built_meter2_leak
+    - floor_count_meter2_leak
+    - square_feet_div_floor_count_meter2_leak
+    - square_feet_div_mean_by_site_id_meter2_leak
+    - square_feet_div_mean_by_primary_use_meter2_leak
+    - square_feet_div_mean_by_year_built_meter2_leak
+    - max_air_temperature_meter2_leak
+    - std_air_temperature_meter2_leak
+    - min_air_temperature_meter2_leak
+    - mean_air_temperature_meter2_leak
+    - diff_min_air_temperature_from_pre_1d_meter2_leak
+    - diff_min_air_temperature_from_pre_7d_meter2_leak
+    - diff_max_air_temperature_from_pre_1d_meter2_leak
+    - diff_max_air_temperature_from_pre_7d_meter2_leak
+    - diff_std_air_temperature_from_pre_1d_meter2_leak
+    - diff_std_air_temperature_from_pre_7d_meter2_leak
+    - diff_mean_air_temperature_from_pre_1d_meter2_leak
+    - diff_mean_air_temperature_from_pre_7d_meter2_leak
+    - max_cloud_coverage_meter2_leak
+    - std_cloud_coverage_meter2_leak
+    - min_cloud_coverage_meter2_leak
+    - mean_cloud_coverage_meter2_leak
+    - diff_min_cloud_coverage_from_pre_1d_meter2_leak
+    - diff_min_cloud_coverage_from_pre_7d_meter2_leak
+    - diff_max_cloud_coverage_from_pre_1d_meter2_leak
+    - diff_max_cloud_coverage_from_pre_7d_meter2_leak
+    - diff_std_cloud_coverage_from_pre_1d_meter2_leak
+    - diff_std_cloud_coverage_from_pre_7d_meter2_leak
+    - diff_mean_cloud_coverage_from_pre_1d_meter2_leak
+    - diff_mean_cloud_coverage_from_pre_7d_meter2_leak
+    - max_dew_temperature_meter2_leak
+    - std_dew_temperature_meter2_leak
+    - min_dew_temperature_meter2_leak
+    - mean_dew_temperature_meter2_leak
+    - diff_min_dew_temperature_from_pre_1d_meter2_leak
+    - diff_min_dew_temperature_from_pre_7d_meter2_leak
+    - diff_max_dew_temperature_from_pre_1d_meter2_leak
+    - diff_max_dew_temperature_from_pre_7d_meter2_leak
+    - diff_std_dew_temperature_from_pre_1d_meter2_leak
+    - diff_std_dew_temperature_from_pre_7d_meter2_leak
+    - diff_mean_dew_temperature_from_pre_1d_meter2_leak
+    - diff_mean_dew_temperature_from_pre_7d_meter2_leak
+    - max_precip_depth_1_hr_meter2_leak
+    - std_precip_depth_1_hr_meter2_leak
+    - min_precip_depth_1_hr_meter2_leak
+    - mean_precip_depth_1_hr_meter2_leak
+    - diff_min_precip_depth_1_hr_from_pre_1d_meter2_leak
+    - diff_min_precip_depth_1_hr_from_pre_7d_meter2_leak
+    - diff_max_precip_depth_1_hr_from_pre_1d_meter2_leak
+    - diff_max_precip_depth_1_hr_from_pre_7d_meter2_leak
+    - diff_std_precip_depth_1_hr_from_pre_1d_meter2_leak
+    - diff_std_precip_depth_1_hr_from_pre_7d_meter2_leak
+    - diff_mean_precip_depth_1_hr_from_pre_1d_meter2_leak
+    - diff_mean_precip_depth_1_hr_from_pre_7d_meter2_leak
+    - max_sea_level_pressure_meter2_leak
+    - std_sea_level_pressure_meter2_leak
+    - min_sea_level_pressure_meter2_leak
+    - mean_sea_level_pressure_meter2_leak
+    - diff_min_sea_level_pressure_from_pre_1d_meter2_leak
+    - diff_min_sea_level_pressure_from_pre_7d_meter2_leak
+    - diff_max_sea_level_pressure_from_pre_1d_meter2_leak
+    - diff_max_sea_level_pressure_from_pre_7d_meter2_leak
+    - diff_std_sea_level_pressure_from_pre_1d_meter2_leak
+    - diff_std_sea_level_pressure_from_pre_7d_meter2_leak
+    - diff_mean_sea_level_pressure_from_pre_1d_meter2_leak
+    - diff_mean_sea_level_pressure_from_pre_7d_meter2_leak
+    - max_wind_direction_meter2_leak
+    - std_wind_direction_meter2_leak
+    - min_wind_direction_meter2_leak
+    - mean_wind_direction_meter2_leak
+    - diff_min_wind_direction_from_pre_1d_meter2_leak
+    - diff_min_wind_direction_from_pre_7d_meter2_leak
+    - diff_max_wind_direction_from_pre_1d_meter2_leak
+    - diff_max_wind_direction_from_pre_7d_meter2_leak
+    - diff_std_wind_direction_from_pre_1d_meter2_leak
+    - diff_std_wind_direction_from_pre_7d_meter2_leak
+    - diff_mean_wind_direction_from_pre_1d_meter2_leak
+    - diff_mean_wind_direction_from_pre_7d_meter2_leak
+    - max_wind_speed_meter2_leak
+    - std_wind_speed_meter2_leak
+    - min_wind_speed_meter2_leak
+    - mean_wind_speed_meter2_leak
+    - diff_min_wind_speed_from_pre_1d_meter2_leak
+    - diff_min_wind_speed_from_pre_7d_meter2_leak
+    - diff_max_wind_speed_from_pre_1d_meter2_leak
+    - diff_max_wind_speed_from_pre_7d_meter2_leak
+    - diff_std_wind_speed_from_pre_1d_meter2_leak
+    - diff_std_wind_speed_from_pre_7d_meter2_leak
+    - diff_mean_wind_speed_from_pre_1d_meter2_leak
+    - diff_mean_wind_speed_from_pre_7d_meter2_leak
+    - site_id_primary_use_meter2_leak
+  categorical_features: 
+
+  fold_name: 01_kfold_meter2_leak
+
+  drop_fname: 
+  
+  convert_type: 'log'
+
+  oof: 
+    save_oof: True
+    concat_oof: False
+
+# ===============
+# Model Parameters
+# ===============
+model_params:
+  objective: regression
+  boosting_type: gbdt
+  metric: rmse
+  n_jobs: -1
+  learning_rate: 0.05
+  num_leaves: 256
+  max_depth: 8
+  colsample_bytree: 0.8
+  subsample_freq: 1
+  subsample: 0.8
+  max_bin: 255
+  verbose: -1
+  random_state: 2019

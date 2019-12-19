@@ -1,0 +1,50 @@
+# ===============
+# Data Parameters
+# ===============
+data:
+  features:
+    - building_id
+    - meter
+    - site_id
+    - primary_use
+    - square_feet
+    - year_built
+    - floor_count
+    - air_temperature
+    - cloud_coverage
+    - dew_temperature
+    - precip_depth_1_hr
+    - sea_level_pressure
+    - wind_direction
+    - wind_speed
+  categorical_features: 
+    # - building_id
+    # - meter
+    # - site_id
+    # - primary_use
+
+  fold_name: 01_kfold
+
+  drop_fname: drop_idx.npy
+  
+  convert_type: 'log'
+
+  oof: 
+    save_oof: True
+    concat_oof: False
+
+# ===============
+# Model Parameters
+# ===============
+model_params:
+    boosting_type: gbdt
+    objective: regression
+    metric: rmse
+    learning_rate: 0.5
+    num_leaves: 1280
+    feature_fraction: 0.8
+    reg_lambda: 2
+    seed: 2019
+    n_jobs: -1
+
+# https://www.kaggle.com/aitude/ashrae-kfold-lightgbm-without-leak-1-08
